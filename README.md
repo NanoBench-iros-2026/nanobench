@@ -4,16 +4,9 @@
 
 This repository accompanies the following publication:
 
-```bibtex
-@misc{ullah2026nanobenchmultitaskbenchmarkdataset,
-      title={NanoBench: A Multi-Task Benchmark Dataset for Nano-Quadrotor System Identification, Control, and State Estimation}, 
-      author={Syed Izzat Ullah and Jose Baca},
-      year={2026},
-      eprint={2603.09908},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2603.09908}, 
-}
+```
+      title={NanoBench: A Multi-Task Benchmark Dataset for Nano-Quadrotor System Identification, Control, and State Estimation}
+      Submitted to IEEE IROS 2026.
 ```
 
 ---
@@ -110,6 +103,8 @@ nanobench/
 | C4 | Battery drain (hover) | — | 2 |
 
 **Total: 170 recordings, ~97.5 minutes of flight, ~603,942 timesteps at 100 Hz.**
+
+> **Dataset availability note.** This repository includes the subset of recordings used directly by the three benchmark tasks. The complete NanoBench dataset — comprising all trajectory types, repetitions, and supplementary calibration flights — will be deposited on a public data repository upon acceptance of the accompanying paper. Instructions for accessing the full release will be provided here at that time.
 
 ### CSV Column Reference
 
@@ -236,7 +231,7 @@ benchmarks/task1_sysid/
 
 ---
 
-## Task 2 — Imitation Learning Control
+## Task 2 — Control
 
 ### Scientific Question
 
